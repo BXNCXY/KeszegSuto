@@ -72,6 +72,21 @@ form input[type = submit]{
 form input[type = submit]:hover{
     opacity: 0.9;
 }
+
+p
+{
+    margin-top: 5vh;
+    color:black;
+    text-decoration:underline;
+    font-size: 1.5vw;
+}
+
+a
+{
+    text-decoration: none;
+    color:inherit;
+}
+
 @media(max-width: 992px){
     .card-container{
         grid-template-columns: 100%;
