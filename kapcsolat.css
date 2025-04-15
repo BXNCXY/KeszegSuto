@@ -1,0 +1,252 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.headerbar
+{
+    display: none;
+}
+
+.searchicon
+{
+    display: block;
+}
+
+.logo img
+{
+    width: 150px;
+}
+
+.bar
+{
+    display: none;
+
+}
+.header
+{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 60px;
+    padding: 0 7vw;
+    background-color: rgb(248,232,217) ; 
+    border-bottom: 2px solid rgb(252,196,124);
+    box-shadow: 0 2px 20px rgb(253,124,124);
+}
+
+.header ul
+{
+    display: flex;
+    align-items:center ;
+}
+
+.header ul li:hover
+{
+    color: rgb(253,57,8);
+}
+
+.nav ul li
+{
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.account
+{
+    flex: 0.1;
+}
+
+.account ul
+{
+    display: flex;
+    justify-content:end;
+}
+
+.account ul li
+{
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+.bar i:hover
+{
+    color: tgb(253,57,8);
+}
+
+.search
+{
+    display:none;
+    width:200px;
+    justify-content:Center;
+}
+
+.search input
+{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+.srchicon
+{
+    background-color: rgb(255,210,210);
+    display: block;
+    padding: 4px 5px;
+    cursor: pointer;
+}
+
+.nagyika
+{
+    font-size: 11,5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: blanchedalmond;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:rgb(248,232,217) ;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 50px auto;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .contact-container, .hours-container {
+    flex: 1 1 400px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  h2 {
+    margin-bottom: 30px;
+    color: rgb(253,57,8)
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgb(253,57,8)   ;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1em;
+  }
+
+  textarea {
+    resize: vertical;
+    height: 120px;
+  }
+
+  button {
+    background-color: rgb(253,57,8);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color:white;
+    color: rgb(253,57,8);
+  }
+
+  .hours-container ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.8;
+  }
+
+  .hours-container li {
+    font-size: 1em;
+    color: #333;
+  }
+
+  .hours-container strong {
+    display: inline-block;
+    width: 120px;
+    color: rgb(253,57,8);
+  }
+
+  @media (max-width: 900px) {
+    .wrapper {
+      flex-direction: column;
+    }
+  }
+
+  .footer {
+    width: 100%;
+    background-color:rgb(248, 203, 143);
+    color: white;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    border:  4px solid rgb(252,196,124);
+    border-bottom: 2px solid rgb(252,196,124);
+    box-shadow: 0 2px 20px rgb(253,124,124);
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .footer-title {
+    font-family: 'Georgia', serif;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .footer-subtitle {
+    margin: 0 0 1rem;
+    font-size: 1rem;
+  }
+  
+  .footer-nav {
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-nav a {
+    color: #ecf0f1;
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-nav a:hover {
+    color: #f39c12;
+  }
+  
+  .footer-copy {
+    font-size: 0.9rem;
+    margin: 0;
+  }

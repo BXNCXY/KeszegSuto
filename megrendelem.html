@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <link rel="stylesheet" href="megrendelem.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagyi Keszegsűtője</title>
+</head>
+    <header>
+    <div class="header">
+        <div class="headerbar">
+          <div class="account">
+             <ul>
+                <a href="">
+                    <li>
+                        <i class="fa solid fa-house-chimney"></i>
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <i class="fa solid fa-magnifying-glass searchicon" id="searchicon1"></i>
+                    </li>
+                </a>
+                <div class="search" id="searchinput1">
+                    <input type="search">
+                    <i class="fa-solid fa-magnifying-glass srchion"></i>
+                </div>   
+                <a href="">
+                    <li>
+                        <i class="fa-solid fa-user" id="user-mb"> </i>
+                    </li>
+                </a>         
+            </ul>
+          </div>
+          <div class="nav">
+            <ul>
+                <a href=""#>
+                    <li>Főoldal</li>
+                </a>
+                <a href=""#>
+                    <li>Rólunk</li>
+                </a>
+                <a href=""#>
+                    <li>Galéria</li>
+                </a>
+                <a href=""#>
+                    <li>Érzékenység</li>
+                </a>
+                <a href=""#>
+                    <li>Forrásaink</li>
+                </a>
+                <a href=""#>
+                    <li>Kapcsolat</li>
+                </a>
+            </ul>
+          </div>
+        </div>
+        <div class="logo">
+            <p class="nagyika"><b>Nagyi Keszegsűtője!</b></p>
+        </div>
+        <div class="bar">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark" id="hdcross"></i>
+        </div>
+        <div class="nav">
+            <ul>
+                <a href="main.html">
+                    <li>Főoldal</li>
+                </a>
+                <a href="Rolunk.html">
+                    <li>Rólunk</li>
+                </a>
+                <a href="Galeria.html">
+                    <li>Galéria</li>
+                </a>
+                <a href="Erzekenyseg.html">
+                    <li>Érzékenység</li>
+                </a>
+                <a href="Forrasaink.html">
+                    <li>Forrásaink</li>
+                </a>
+                <a href="Kapcsolat.html">
+                    <li>Kapcsolat</li>
+                </a>
+            </ul>
+        </div>
+        <div class="account">
+            <ul>
+                <a href="#">
+                    <li>
+                        <i class="fa-solid fa-house-chimney"></i>
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon"></i>
+                    </li>
+                </a>
+                <div class="search" id="searchinput2">
+                    <input type="search">
+                    <i class="fa-solid fa-magnifying-glass srchion"></i>
+                </div>
+                <a href="#">
+                    <li>
+                        <i class="fa-solid fa-user" id="user-lap"></i>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    </header>
+    <main>
+        <section class="menu">
+        <div>
+          <h2>Válassz ételeket:</h2>
+          <form id="orderForm">
+            <label>
+              <input type="checkbox" name="food" value="3500" />
+              Sült keszeg – 3500 Ft
+            </label><br>
+    
+            <label>
+              <input type="checkbox" name="food" value="2000" />
+              Hekk – 2000 Ft
+            </label><br>
+    
+            <label>
+              <input type="checkbox" name="food" value="500" />
+              Hasábburgonya – 500 Ft
+            </label><br>
+    
+            <label>
+              <input type="checkbox" name="food" value="300" />
+              Uborkasaláta – 300 Ft
+            </label><br>
+    
+            <label>
+              <input type="checkbox" name="food" value="2200" />
+              Halászlé – 2200 Ft
+            </label><br><br>
+    
+            <button type="button" onclick="calculateTotal()">Számolás</button>
+          </form>
+          <div id="totalPrice">Összesen: 0 Ft</div>
+        </section>
+      </main>
+    </div>    
+      <br>
+      <br>
+      <br>
+      <div class="footer">
+
+        <div class="footer-1">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+            </div>
+        </div>  
+
+        <div class="footer-2">
+            <img src="" alt="">
+            <div>
+                <address>
+                    <p>Email:nagyikeszegsutoje@gmail.com</p>
+                    <p>Tiktok:Nagyikeszegsutoje</p>
+                    <p>Balaton,Siófok<br>Petőfi sétány 6. Magyarország</p>
+                </address>
+            </div><br>
+            <br>
+            <h3>Készitette: <em>Demeter Bence & Juhász Ágnes</em></h3>
+        </div>
+</div>
+    <script src="megrendelem.js"></script>
+</body>
+</html>

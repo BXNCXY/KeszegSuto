@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Foglalj Asztalt!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="foglaljasztaltar.css">
+    </head>
+    <body>
+        
+        <section class = "banner">
+            <h2>Foglalj Asztalt Nálunk!</h2>
+            <div class = "card-container">
+                <div class = "card-img">
+
+                </div>
+
+                <div class = "card-content">
+                    <h3>Foglalás</h3>
+                    <form>
+                        <div class = "form-row">
+                            <select name = "days">
+                                <option value = "day-select">Válassz egy napot!</option>
+                                <option value = "sunday">Vasárnap</option>
+                                <option value = "monday">Hétfő</option>
+                                <option value = "tuesday">Kedd</option>
+                                <option value = "wednesday">Szerda</option>
+                                <option value = "thursday">Csütörtök</option>
+                                <option value = "friday">Péntek</option>
+                                <option value = "saturday">Szombat</option>
+                            </select>
+
+                            <select name = "hours">
+                                <option value = "hour-select">Időpont</option>
+                                <option value = "10">10: 00</option>
+                                <option value = "10">12: 00</option>
+                                <option value = "10">14: 00</option>
+                                <option value = "10">16: 00</option>
+                                <option value = "10">18: 00</option>
+                                <option value = "10">20: 00</option>
+                                <option value = "10">22: 00</option>
+                            </select>
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "text" placeholder="Teljes Neved">
+                            <input type = "text" placeholder="Telefonszámod">
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "number" placeholder="Hány fő?" min = "1">
+                            <input type = "submit" value = "Foglald le!" href="main.html">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </body>
+</html>
