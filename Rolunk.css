@@ -236,3 +236,49 @@
     font-size: 0.9rem;
     margin: 0;
   }
+
+  .space
+  {
+    height: 4vw;
+  }
+
+@media screen and (max-width: 1000px) {
+    .header .account
+    {
+        display: none;
+    }
+
+    .main_slide .kep p 
+    {
+        font-size: calc(11px + 0.5vw);
+    }
+}
+
+@media screen and (max-width: 860px) 
+{
+    .header .nagyika
+    {
+        font-size: clamp(2vw, 2.3vw, 2.5vw);
+    }
+
+    .header .nav
+    {
+        display: none;
+    }
+
+    .header .bar
+    {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    .kep 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
