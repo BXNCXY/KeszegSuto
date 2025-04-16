@@ -2,6 +2,8 @@
 <html lang="en">
 <head> 
     <link rel="stylesheet" href="Rolunk.css">
+    <link rel="stylesheet" href="menu_responsive.css">
+    <script src="menu.js"></script>
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
@@ -62,9 +64,19 @@
             <div class="logo">
                 <p class="nagyika"><b>Nagyi Keszegsűtője!</b></p>
             </div>
-            <div class="bar">
-                <i class="fa-solid fa-bars"></i>
+            <div class="overlay" id="myNav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="main.html">Főoldal</a>
+                    <a href="Rolunk.html">Rólunk</a>
+                    <a href="Galeria.html">Galéria</a>
+                    <a href="Erzekenyseg.html">Érzékenység</a>
+                    <a href="Forrasaink.html">Forrásaink</a>
+                    <a href="Kapcsolat.html">Kapcsolat</a>
+                </div>
             </div>
+            <span onclick="openNav()" class="bar">&#9776;</span>
+    
             <div class="nav">
                 <ul>
                     <a href="main.html">
