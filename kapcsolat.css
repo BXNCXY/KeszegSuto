@@ -180,6 +180,11 @@ body {
     color: rgb(253,57,8);
   }
 
+  .hours-container
+  {
+    text-align: center;
+  }
+
   .hours-container ul {
     list-style: none;
     padding: 0;
