@@ -1,3 +1,8 @@
+body
+{
+    min-width: 300px
+}
+
 *
 {
     margin: 0;
@@ -140,7 +145,7 @@
 {
     padding-top: 20px;
     flex: 1;
-    font-size: 30px;
+    font-size: 3vw;
 }
 
 .main_slide div:nth-child(1) p
@@ -650,4 +655,252 @@
 .item a
 {
     color:rgb(255,137,2);
+}
+
+
+@media screen and (max-width: 1180px) 
+{
+    
+}
+
+@media screen and (max-width: 1136px)
+{
+    .home .main_slide3 .dsgn
+    {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 1010px) 
+{
+    .home .main_slide 
+    {
+        font-size:10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home .main_slide img
+    {
+        width: auto;
+        height: 50vw;
+    }
+}
+
+@media screen and (max-width: 946px)
+{
+    .home .main_slide4 .chef-feed h2
+    {
+        font-size: 6.13vw;
+    }
+
+    .home .main_slide4 .chef-feed p
+    {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 700px) 
+{
+    .home .letter .letter-input
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home .letter .red_btn 
+    {
+        border-radius: 3px;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 568px)
+{
+    .home .main_slide3 .dsgn
+    {
+        height: 1730px;
+    }
+
+    .home .main_slide3 .fav-head h3
+    {
+        font-size: 5.283vw;
+    }
+
+    .home .main_slide3 .fav-head p
+    {
+        font-size: 2.285vw;
+    }
+
+    .main_slide4 
+    {
+        margin-left: 10vw;
+    }
+}
+
+@media screen and (max-width: 550px) 
+{
+    .home .main_slide img
+    {
+        width: auto;
+        height: 50vw;
+    }
+
+    .main_slide4
+    {
+        margin-top: 10vw;
+    }
+
+    .main_slide4 .chef-feed h2
+    {
+        font-size: 6vw;
+    }
+
+    .main_slide4 .chef-feed p
+    {
+        font-size: 14px;
+    }
+
+    .main_slide4 .chef img
+    {
+        margin-left: 10vw;
+    }
+
+    .home .letter
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home .letter .red_btn
+    {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 465px) 
+{
+    .home .main_slide3 .fav-head h3
+    {
+        font-size: 4.285vw;
+    } 
+
+    .home .main_slide3 .fav-head p
+    {
+        font-size: 2.285vw;
+        width: 50vw;
+        margin-left: 28%;
+    }
+}
+
+@media screen and (max-width: 450px) 
+{
+        .main_slide2 .question h2
+        {
+            font-size: 7vw;
+            text-align: center;
+            transform: translateX(-4vw);
+        }
+
+        .main_slide2 .question .q-ans img
+        {
+            width: 10vw;
+            height: auto;
+        }
+
+        .main_slide2 .question .q-ans h4
+        {
+            font-size: 3.5vw;
+        }
+
+        .main_slide2 .question .q-ans p
+        {
+            font-size: 2vw;
+        }
+}
+
+@media screen and (max-width: 389px)
+{
+    .chef-feed p
+    {
+        width: 90%;
+    }
+
+/*     .chef-vic 
+    {
+        font-size: 10px;
+        font-style: italic;
+        width: 30vw;
+        padding: 1vw;
+    } */
+
+    .chef-vic div
+    {
+        font-size: 0vw;
+        font-style: italic;
+        width: 30vw;
+        padding: 1vw;
+    }
+
+    .main_slide4 .chef-vic div i, 
+    .main_slide4 .chef-vic div h4
+    {
+        font-size: 7vw;
+    }
+
+    .chef-vic div i 
+    {
+        font-size: 2vw;
+    }
+
+    .main_slide4 .chef-vic div p 
+    {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 370px) 
+{
+    .home .main_slide3 .fav-head h3
+    {
+        font-size: 4.285vw;
+    } 
+
+    .home .main_slide3 .fav-head p
+    {
+        font-size: 2.285vw;
+        width: 50vw;
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 330px) 
+{
+    .home .main_slide3 .fav-head h3
+    {
+        font-size: 4.285vw;
+    } 
+
+    .home .main_slide3 .fav-head p
+    {
+        font-size: 2.285vw;
+        width: 50vw;
+        margin-left: 33%;
+    }
+}
+
+@media screen and (max-width: 270px) 
+{
+    .home .main_slide3 .fav-head h3
+    {
+        font-size: 4.285vw;
+    } 
+
+    .home .main_slide3 .fav-head p
+    {
+        font-size: 2.285vw;
+        width: 50vw;
+        margin-left: 35%;
+    }
 }
