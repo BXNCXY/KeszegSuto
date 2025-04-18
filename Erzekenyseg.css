@@ -151,7 +151,7 @@
 }
 
 
-.kep img:hover
+/* .kep img:hover
 {
     transform: scale(1.1);
     transition: transform 0.3s;
@@ -162,7 +162,7 @@
     opacity: 0.8;
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
-}
+} */
 
 .kep
 {
