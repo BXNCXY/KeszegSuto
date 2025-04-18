@@ -69,6 +69,10 @@ nav a:hover {
   border-bottom: 2px solid #d3b089;
 }
 
+.video-section video 
+{
+  border-radius: 8px;
+}
 
 .gallery img {
   width: 100%;
@@ -137,3 +141,29 @@ nav a:hover {
   margin: 0;
 }
 
+@media screen and (max-width: 630px)
+{
+  .video-section video
+  {
+    width: 90vw;
+    height: auto;
+  }  
+}
+
+@media screen and (max-width: 450px)
+{
+  .gallery
+  {
+    height: auto;
+  }
+
+  .image-wrapper img
+  {
+    height: 45vw;
+  }
+
+  .space
+  {
+    height: 1%;
+  }
+}
