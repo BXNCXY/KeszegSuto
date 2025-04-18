@@ -31,7 +31,7 @@ body{
     margin-bottom: 20px;
 }
 .card-content{
-    background: rgb(248,232,217);
+    background: rgba(248,232,217, 0.7);
     height: 330px;
 }
 .card-content h3{
@@ -45,7 +45,7 @@ body{
     display: flex;
     width: 90%;
     margin: 0 auto;
-    background-color:  rgb(248,232,217);
+    background-color:  rgba(248,232,217, 0.0);
 }
 form select, form input{
     display: block;
@@ -87,12 +87,67 @@ a
     color:inherit;
 }
 
+@media screen and (max-width: 1000px) 
+{
+    p
+    {
+        font-size: 2.5vw;
+    }    
+}
+
+
 @media(max-width: 992px){
     .card-container{
-        grid-template-columns: 100%;
+        display: flex;
+        flex-direction: column;
         width: 100vw;
     }
     .card-img{
-        height: 330px;
+        margin: auto auto;
+        height: 50vw;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 450px) 
+{
+    #days, #hours
+    {
+        font-size: 3vw;
+    }
+
+    form .form-row input[type = text]
+    {
+        font-size: 3.5vw;
+    }
+
+    p
+    {
+        font-size: 4vw;
+    }    
+}
+
+@media screen and (max-width: 340px) 
+{
+    #days, #hours
+    {
+        font-size: 3vw;
+    }
+
+    form .form-row input[type = text]
+    {
+        font-size: 3.2vw;
+    }
+
+    #fo
+    {
+        font-size: 3vw;
+        height: 13vw;
+    }
+
+    #foglal
+    {
+        height: 13vw;
+        font-size: 3vw;
     }
 }

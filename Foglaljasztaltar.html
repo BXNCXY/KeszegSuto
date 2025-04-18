@@ -20,7 +20,7 @@
                     <h3>Foglalás</h3>
                     <form>
                         <div class = "form-row">
-                            <select name = "days">
+                            <select name = "days" id="days">
                                 <option value = "day-select">Válassz egy napot!</option>
                                 <option value = "sunday">Vasárnap</option>
                                 <option value = "monday">Hétfő</option>
@@ -31,7 +31,7 @@
                                 <option value = "saturday">Szombat</option>
                             </select>
 
-                            <select name = "hours">
+                            <select name = "hours" id="hours">
                                 <option value = "hour-select">Időpont</option>
                                 <option value = "10">10: 00</option>
                                 <option value = "10">12: 00</option>
@@ -44,13 +44,13 @@
                         </div>
 
                         <div class = "form-row">
-                            <input type = "text" placeholder="Teljes Neved">
-                            <input type = "text" placeholder="Telefonszámod">
+                            <input type = "text" placeholder="Teljes Neved" id="nev">
+                            <input type = "text" placeholder="Telefonszámod" id="szam">
                         </div>
 
                         <div class = "form-row">
-                            <input type = "number" placeholder="Hány fő?" min = "1">
-                            <input type = "submit" value = "Foglald le!" href="main.html">
+                            <input type = "number" placeholder="Hány fő?" min = "1" id="fo">
+                            <input type = "submit" value = "Foglald le!" href="main.html" id="foglal">
                         </div>
                     </form>
                 </div>
